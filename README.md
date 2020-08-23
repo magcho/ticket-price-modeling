@@ -6,20 +6,23 @@
 劇場スタッフがチケットカウターで客の情報を入力すると代金が提示される。
 
 ## ユビキタス言語
-- 客
-  - 学生
-  - 生徒
-  - シニア
-  - 幼児
-  - 障がい者
-  - 学生証
-  - 生徒証
-  - 身分証
-  - 障がい者手帳
-- 上映
- - 上映開始時間
-- チケット
- - 代金
+- 客 Customer
+  - types
+    - 学生 Student
+    - 生徒 Pupil
+    - シニア serinor
+    - 幼児 child
+    - 障がい者 disability
+  - 年齢 Age
+  - 証明証 Certificate
+    - 学生証 StudentIdentification
+    - 生徒証 StudentHandbook
+    - 身分証 Identification
+    - 障がい者手帳 DisabilityHandbook
+- 上映回 sreenTime
+ - 上映開始時間 startTime
+- チケット Ticket
+ - 代金 Price
 
 ## 考慮しない物
 - エムアイカード、駐車場パーク80割引
